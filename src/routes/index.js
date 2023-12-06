@@ -7,11 +7,11 @@ const router = createRouter({
     
     routes: [
         {
-            path: "/testhost/",
+            path: "/",
             component: AuthLayout,
             children:[
                 {
-                    path:'/testhost/',
+                    path:'/',
                     name:'Login',
                     component:LoginView
                 },
