@@ -16,7 +16,7 @@ const router = createRouter({
                     component:LoginView
                 },
                 {
-                    path: "/request-reset-password",
+                    path: "/testhost/request-reset-password",
                     name:'PasswordReset',
                     component: PasswordResetView,
         
