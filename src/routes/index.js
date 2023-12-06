@@ -7,16 +7,16 @@ const router = createRouter({
     
     routes: [
         {
-            path: "/",
+            path: "/testhost/",
             component: AuthLayout,
             children:[
                 {
-                    path:'/',
+                    path:'',
                     name:'Login',
                     component:LoginView
                 },
                 {
-                    path: "/request-reset-password",
+                    path: "request-reset-password",
                     name:'PasswordReset',
                     component: PasswordResetView,
         
